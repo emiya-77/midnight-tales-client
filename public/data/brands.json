@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "brandTitle": "Walt Disney Studios",
+    "brandDescription": "Iconic, family-friendly entertainment with a focus on animation, theme parks, and timeless storytelling.",
+    "image": "https://i.ibb.co/G2LD5d5/disney.jpg",
+    "brandId": "disney"
+  },
+  {
+    "id": 2,
+    "brandTitle": "Warner Bros. Pictures",
+    "brandDescription": "A major film studio known for producing blockbuster movies, including the Harry Potter and DC superhero franchises.",
+    "image": "https://i.ibb.co/xF0n1sD/warner.jpg",
+    "brandId": "warner"
+  },
+  {
+    "id": 3,
+    "brandTitle": "Universal Music Group",
+    "brandDescription": "A global music company representing a wide range of artists and genres, known for its music labels.",
+    "image": "https://i.ibb.co/rkb5CzL/universal.jpg",
+    "brandId": "universal"
+  },
+  {
+    "id": 4,
+    "brandTitle": "Netflix",
+    "brandDescription": "A leading streaming service, providing a vast library of original and licensed content for on-demand entertainment.",
+    "image": "https://i.ibb.co/SwxFLR8/netflix-2.jpg",
+    "brandId": "netflix"
+  },
+  {
+    "id": 5,
+    "brandTitle": "Sony Pictures Entertainment",
+    "brandDescription": "A film and television studio, known for its diverse range of movie and TV show productions.",
+    "image": "https://i.ibb.co/3ygHSCV/sony.jpg",
+    "brandId": "sony"
+  },
+  {
+    "id": 6,
+    "brandTitle": "HBO (Home Box Office)",
+    "brandDescription": "Renowned for premium cable and streaming content, including hit series like Game of Thrones and Westworld.",
+    "image": "https://i.ibb.co/zfxFsJF/hbo.jpg",
+    "brandId": "hbo"
+  }
+]

@@ -106,7 +106,7 @@ const Register = () => {
 
     return (
         <>
-            <div className="w-full h-screen flex justify-center items-center" style={{ backgroundImage: `url(/data/home/1.jpg)`, backgroundSize: 'cover' }} >
+            <div className="w-full h-screen flex justify-center pt-20 md:pt-0 bg-cover bg-center items-center" style={{ backgroundImage: `url(/img/add-product-bg1.jpg)`, backgroundSize: 'cover' }} >
 
                 <div className="container min-h-96 w-72 mx-auto md:min-h-[400px] md:w-[400px] bg-gray-900 bg-opacity-80 shadow-5xl backdrop-blur-sm px-2 pb-5 md:pb-5">
                     <form onSubmit={handleRegister} className="h-full flex flex-col justify-start items-center p-2 md:p-5 mb-3 md:mb-5">

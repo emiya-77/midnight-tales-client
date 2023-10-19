@@ -90,7 +90,7 @@ const Login = () => {
 
     return (
         <>
-            <div className="w-full h-screen flex justify-start items-center" style={{ backgroundImage: `url(/data/home/1.jpg)`, backgroundSize: 'cover' }} >
+            <div className="w-full h-screen flex justify-start items-center bg-cover bg-center" style={{ backgroundImage: `url(/img/add-product-bg1.jpg)`, backgroundSize: 'cover' }} >
                 <div className="container min-h-96 w-72 mx-auto md:min-h-[400px] md:w-[400px] bg-gray-900 bg-opacity-80 shadow-5xl border border-white border-opacity-30 border-l-0 border-b-0 backdrop-blur-sm px-2 pb-5 md:p-5">
                     <form onSubmit={handleLogin} className="h-full flex flex-col justify-start items-center p-2 md:p-5">
                         <div className="text-4xl font-extralight tracking-widest text-white my-5 md:mb-10">Login</div>
