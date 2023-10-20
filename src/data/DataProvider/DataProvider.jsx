@@ -6,7 +6,7 @@ export const DataContext = createContext();
 
 const DataProvider = ({ children }) => {
 
-    // const [blogList, setBlogList] = useState();
+    const [movieList, setMovieList] = useState();
     const [brandList, setBrandList] = useState();
     const [userCartList, setUserCartList] = useState([]);
 
@@ -16,14 +16,15 @@ const DataProvider = ({ children }) => {
             .then(data => setBrandList(data))
     }, [])
 
-    // useEffect(() => {
-    //     fetch('/data/blog.json')
-    //         .then(res => res.json())
-    //         .then(res => setBlogList(res))
-    // }, [])
+    useEffect(() => {
+        fetch('/data/movies.json')
+            .then(res => res.json())
+            .then(res => setMovieList(res))
+    }, [])
 
     const data = {
         brandList,
+        movieList,
         userCartList,
         setUserCartList,
     };

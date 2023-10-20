@@ -39,28 +39,28 @@ const router = createBrowserRouter([
             {
                 path: '/brand-products/:brand',
                 element: <BrandProducts></BrandProducts>,
-                loader: () => fetch('https://midnight-tales-server-7jy6jc73m-golam-kibrias-projects.vercel.app/show')
+                loader: () => fetch('http://localhost:5000/show')
             },
             {
                 path: '/product-details/:id',
                 element: <PrivateRoute>
                     <ProductDetails></ProductDetails>
                 </PrivateRoute>,
-                loader: ({ params }) => fetch(`https://midnight-tales-server-7jy6jc73m-golam-kibrias-projects.vercel.app/show/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/show/${params.id}`)
             },
             {
                 path: '/my-cart',
                 element: <PrivateRoute>
                     <MyCart></MyCart>
                 </PrivateRoute>,
-                loader: () => fetch('https://midnight-tales-server-7jy6jc73m-golam-kibrias-projects.vercel.app/show')
+                loader: () => fetch('http://localhost:5000/show')
             },
             {
                 path: '/product-update/:id',
                 element: <PrivateRoute>
                     <UpdateProduct></UpdateProduct>
                 </PrivateRoute>,
-                loader: ({ params }) => fetch(`https://midnight-tales-server-7jy6jc73m-golam-kibrias-projects.vercel.app/show/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/show/${params.id}`)
             }
         ]
     }

@@ -13,10 +13,18 @@ const MyCart = () => {
     const [userProduct, setUserProduct] = useState([]);
 
     useEffect(() => {
-        fetch(`https://midnight-tales-server-7jy6jc73m-golam-kibrias-projects.vercel.app/user-shows/${user.uid}`)
+        fetch(`http://localhost:5000/user-shows/${user.uid}`)
             .then(res => res.json())
             .then(data => setUserProduct(data.updatedUserCartList))
     }, [user, userCartList])
+
+    console.log('productsList: ', productsList);
+    console.log('userProduct: ', userProduct);
+
+
+    if (!productsList) {
+        return <span className="loading loading-dots loading-lg block max-w-sm mx-auto py-48"></span>;
+    }
 
     const filteredProductCartList = productsList.filter(product => userProduct.includes(product._id));
 

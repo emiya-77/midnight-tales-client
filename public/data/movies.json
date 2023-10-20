@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Spider-Man: No Way Home",
+        "date": "Released: December 17, 2021",
+        "imageSrc": "https://i.ibb.co/88gsqc1/movie-1.jpg",
+        "description": "Follow Peter Parker as he teams up with other Spider-People from different dimensions to stop a multiversal threat."
+    },
+    {
+        "id": 2,
+        "title": "Dune",
+        "date": "Released: October 21, 2021",
+        "imageSrc": "https://i.ibb.co/KwNdhWP/movie-2.jpg",
+        "description": "Journey to the desert planet of Arrakis and witness the epic battle for control of its valuable resources."
+    },
+    {
+        "id": 3,
+        "title": "Eternals",
+        "date": "Released: November 5, 2021",
+        "imageSrc": "https://i.ibb.co/qMMBQzN/movie-3.jpg",
+        "description": "Meet a new team of immortal heroes, the Eternals, who emerge from the shadows to face an ancient enemy."
+    }
+]
