@@ -24,7 +24,7 @@ const MyCartCard = ({ product }) => {
 
         console.log('userCart:', userCart);
 
-        fetch(`http://localhost:5000/user-shows/${userId}`, {
+        fetch(`https://midnight-tales-server-7jy6jc73m-golam-kibrias-projects.vercel.app/user-shows/${userId}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -54,7 +54,7 @@ const MyCartCard = ({ product }) => {
         //     confirmButtonText: 'Yes, delete it!'
         // }).then((result) => {
         //     if (result.isConfirmed) {
-        //         fetch(`http://localhost:5000/user-shows/${userId}`, {
+        //         fetch(`https://midnight-tales-server-7jy6jc73m-golam-kibrias-projects.vercel.app/user-shows/${userId}`, {
         //             method: 'PUT',
         //             headers: {
         //                 'content-type': 'application/json'
