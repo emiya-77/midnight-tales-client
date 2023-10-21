@@ -12,7 +12,7 @@ const ErrorPage = () => {
                         404 - Page Not Found
                     </h1>
                     <p className="text-lg text-gray-500 text-center">
-                        Sorry, the page you are looking for doesn't exist.
+                        Sorry, the page you are looking for doesn&apos;t exist.
                     </p>
                     <Link to="/" >
                         <button className="mt-4 px-4 py-2 bg-blue-700 text-white rounded-md hover:bg-blue-800">

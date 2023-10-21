@@ -9,6 +9,13 @@ const DataProvider = ({ children }) => {
     const [movieList, setMovieList] = useState();
     const [brandList, setBrandList] = useState();
     const [userCartList, setUserCartList] = useState([]);
+    const [darkMode, setDarkMode] = useState(false);
+
+    useEffect(() => {
+        // let mode = !darkMode ? 'dark' : 'light';
+        document.documentElement.classList.toggle('dark', darkMode);
+        document.documentElement.classList.toggle('light', !darkMode);
+    }, [darkMode])
 
     useEffect(() => {
         fetch('/data/brands.json')
@@ -27,6 +34,8 @@ const DataProvider = ({ children }) => {
         movieList,
         userCartList,
         setUserCartList,
+        darkMode,
+        setDarkMode,
     };
 
     return (
