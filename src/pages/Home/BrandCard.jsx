@@ -9,7 +9,7 @@ const BrandCard = ({ brand }) => {
             <Link to={`/brand-products/${brandId}`}>
                 <div className="cursor-pointer bg-gray-900 dark:bg-opacity-80 bg-opacity-30 h-full dark:text-white text-black rounded-lg shadow-md p-4 m-4 transform transition-transform hover:scale-105">
                     <div className="overflow-hidden">
-                        <img src={image} alt={brandTitle} className="w-full h-72 object-cover transform transition-transform hover:scale-95" />
+                        <img src={image} alt={brandTitle} className="w-full h-52 md:h-72 object-cover transform transition-transform hover:scale-95" />
                     </div>
                     <div className="p-4">
                         <h3 className="text-2xl font-bold mb-2">{brandTitle}</h3>

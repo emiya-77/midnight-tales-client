@@ -80,7 +80,7 @@ const Navbar = () => {
 
     const loginLinks = <>
         <div className="flex items-center justify-center gap-2">
-            <div className="text-xl font-light tracking-widest text-white">
+            <div className="text-xl dark:font-light font-normal dark:tracking-widest tracking-wider dark:text-white text-black">
                 {displayName ? displayName : ''}
             </div>
             <div className="w-12 h-12 flex justify-center items-center bg-white rounded-full overflow-hidden">

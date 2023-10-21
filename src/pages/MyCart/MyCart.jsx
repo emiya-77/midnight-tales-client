@@ -35,8 +35,9 @@ const MyCart = () => {
             backgroundImage: `url(/img/product-bg1.jpg)`
         }}>
             <div className="lg:container lg:mx-auto min-h-[551px]">
-                <div className="">
-                    <div className="grid grid-cols-3 p-20">
+                <div>
+                    <h2 className="text-4xl text-white md:text-5xl font-light text-center mb-6 tracking-wider">My Cart</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-2 md:p-20 gap-8">
                         {
                             filteredProductCartList?.map(product => <MyCartCard key={product._id} product={product}></MyCartCard>)
                         }

@@ -6,7 +6,6 @@ import BrandBanner from "../../components/Banner/BrandBanner";
 const BrandProducts = () => {
 
     const brandProducts = useLoaderData();
-
     const brandP = useParams();
 
     console.log('brandProducts:', brandProducts);
@@ -24,7 +23,7 @@ const BrandProducts = () => {
             <BrandBanner></BrandBanner>
             <div className="lg:container lg:mx-auto min-h-[551px]">
                 <div className="">
-                    <div className="grid grid-cols-3 p-20">
+                    <div className="grid grid-cols-1 md:grid-cols-3 p-4 md:p-20 gap-8">
                         {
                             filteredBrandProducts?.map(product => <BrandProductCard key={product._id} product={product}></BrandProductCard>)
                         }

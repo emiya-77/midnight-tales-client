@@ -2,18 +2,18 @@
 
 const NewsLetter = () => {
     return (
-        <section className="w-full dark:divide-x-2 divide-x-2 divide-blue-400 dark:bg-black bg-blue-400 bg-opacity-50 backdrop-blur-sm py-20 mb-40 flex">
-            <div className="w-1/3 flex justify-center items-center">
-                <div className="w-[320px] h-[320px] rounded-full overflow-hidden flex justify-center items-center">
+        <section className="w-full dark:divide-y-2 md:dark:divide-x-2 divide-y-2 md:divide-y-0 md:dark:divide-y-0 md:divide-x-2 dark:divide-white divide-blue-400 dark:bg-black bg-blue-400 bg-opacity-50 backdrop-blur-sm py-20 mb-40 flex flex-col md:flex-row space-y-4 md:space-y-0">
+            <div className="p-4 w-full md:w-1/3 flex justify-center items-center">
+                <div className="w-[280px] h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden flex justify-center items-center">
                     <img className="w-full h-full object-cover" src="/img/home-bg1.jpg" alt="" />
                 </div>
             </div>
             <div className="w-2/3 container mx-auto px-4 flex justify-center items-center">
                 <div className="max-w-2xl mx-auto text-center">
-                    <h2 className="text-3xl font-semibold dark:text-white text-black mb-4">
+                    <h2 className="text-2xl md:text-3xl font-semibold dark:text-white text-black mb-4">
                         Subscribe to our Newsletter
                     </h2>
-                    <p className="dark:text-gray-300 text-black mb-6">
+                    <p className="dark:text-gray-300 text-sm md:text-base text-black mb-6">
                         Stay updated with the latest Entertainment and Movie events, new Shows, and
                         updates from MidnightTales.
                     </p>
