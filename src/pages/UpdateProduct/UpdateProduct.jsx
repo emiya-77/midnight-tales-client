@@ -24,7 +24,7 @@ const UpdateProduct = () => {
 
         console.log(updatedShow);
 
-        fetch(`http://localhost:5000/show/${id}`, {
+        fetch(`https://midnight-tales-server.vercel.app/show/${id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
