@@ -1,5 +1,4 @@
 import { useContext, useState } from 'react';
-import Tilt from 'react-parallax-tilt';
 import { FaEyeSlash, FaEye } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../auth/AuthProvider/AuthProvider';
@@ -51,7 +50,7 @@ const Register = () => {
                 theme: "dark",
             });
             return;
-        } else if (!/^(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]).{8,}$/.test(password)) {
+        } else if (!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/.test(password)) {
             setRegisterError('Password must have at least one special character.');
             toast.warn(registerError, {
                 position: "top-right",
