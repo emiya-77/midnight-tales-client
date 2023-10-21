@@ -9,7 +9,7 @@ const MovieCard = ({ movie }) => {
                 <h3 className="text-xl font-semibold dark:text-white text-black">{title}</h3>
                 <p className="dark:text-gray-400 text-black text-sm mb-2">{date}</p>
                 <p className="dark:text-gray-300 text-black text-sm">{description}</p>
-                <a href="#" className="dark:text-dim-red-400 dark:hover:text-dim-red-300 text-black dark:font-normal font-medium text-sm mt-2 inline-block">
+                <a href="#" className="dark:text-dim-red-400 dark:hover:text-dim-red-300 text-black dark:text-white dark:font-normal font-medium text-sm mt-2 inline-block">
                     Read more
                 </a>
             </div>

@@ -2,7 +2,7 @@
 
 const NewsLetter = () => {
     return (
-        <section className="w-full dark:divide-y-2 md:dark:divide-x-2 divide-y-2 md:divide-y-0 md:dark:divide-y-0 md:divide-x-2 dark:divide-white divide-blue-400 dark:bg-black bg-blue-400 bg-opacity-50 backdrop-blur-sm py-20 mb-40 flex flex-col md:flex-row space-y-4 md:space-y-0">
+        <section className="w-full dark:divide-y-2 md:dark:divide-x-2 divide-y-2 md:divide-y-0 md:dark:divide-y-0 md:divide-x-2 dark:divide-white divide-blue-400 dark:bg-black bg-blue-400 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-sm py-20 mb-40 flex flex-col md:flex-row space-y-4 md:space-y-0">
             <div className="p-4 w-full md:w-1/3 flex justify-center items-center">
                 <div className="w-[280px] h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden flex justify-center items-center">
                     <img className="w-full h-full object-cover" src="/img/home-bg1.jpg" alt="" />

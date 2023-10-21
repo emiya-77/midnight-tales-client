@@ -19,7 +19,7 @@ const AddProduct = () => {
         const newShow = { name, brand, price, type, rating, image, description };
         console.log(newShow);
 
-        fetch('https://midnight-tales-server.vercel.app/show', {
+        fetch('http://localhost:5000/show', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
