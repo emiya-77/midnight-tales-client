@@ -88,6 +88,7 @@ const Register = () => {
                     progress: undefined,
                     theme: "dark",
                 });
+                navigate('/');
             })
             .catch(error => {
                 setRegisterError(error.message);
