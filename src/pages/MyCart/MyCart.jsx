@@ -13,7 +13,7 @@ const MyCart = () => {
     const [userProduct, setUserProduct] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/user-shows/${user.uid}`)
+        fetch(`https://midnight-tales-server.vercel.app/user-shows/${user.uid}`)
             .then(res => res.json())
             .then(data => setUserProduct(data.updatedUserCartList))
     }, [user, userCartList])

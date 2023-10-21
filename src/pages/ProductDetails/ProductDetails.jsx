@@ -23,7 +23,7 @@ const ProductDetails = () => {
             const userCart = { userId, updatedUserCartList }
 
             console.log(userCart);
-            fetch(`http://localhost:5000/user-shows/${userId}`, {
+            fetch(`https://midnight-tales-server.vercel.app/user-shows/${userId}`, {
                 method: 'PUT',
                 headers: {
                     'content-type': 'application/json'
