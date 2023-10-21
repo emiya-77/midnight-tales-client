@@ -33,7 +33,7 @@ const ProductDetails = () => {
                 .then(res => res.json())
                 .then(data => {
                     console.log(data);
-                    if (data.modifiedCount > 0) {
+                    if (data.modifiedCount > 0 || data.insertedId) {
                         Swal.fire({
                             title: 'Success!',
                             text: 'Added To Cart Successfully',
