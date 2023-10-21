@@ -9,7 +9,7 @@ const NoBrandProductMessage = () => {
                         No Movies have been added yet for this brand.
                     </h2>
                     <h2 className="text-5xl tracking-wider text-white">
-                        Updates Coming Soon...
+                        Updates Are Coming Soon...
                     </h2>
                 </div>
             </div>
